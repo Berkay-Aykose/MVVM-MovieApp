@@ -66,4 +66,4 @@ This is Movie Explorer, a film discovery app where users can create accounts, se
 
 🎥 Video
 
-(Buraya bir bağlantı ekleyin veya demo videosunu gömün)
+[Video](https://github.com/user-attachments/assets/15645ff2-8db9-4a1f-9745-194e866614bf)
