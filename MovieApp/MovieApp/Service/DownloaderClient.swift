@@ -30,7 +30,7 @@ class DownloaderClient{
     
     func filmDetailiIndir(id: Int, completion: @escaping (Result<MovieDetail, DownloaderError>) -> Void){
         
-        guard let url = URL(string: "https://api.themoviedb.org/3/movie/\(id)?api_key=784138a2ce66c877cb801217daaa1a5a") else {
+        guard let url = URL(string: "https://api.themoviedb.org/3/movie/\(id)?api_key=(API_KEY)") else {
             return completion(.failure(.yanlisURLHata)) }
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
